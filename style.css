@@ -325,7 +325,8 @@ font-weight: 400;
 font-size: 40px;
 line-height: 46px;
 text-decoration: none;
-transition:0.2s
+transition:0.2s;
+width:100px;
 }
 a, a:hover, a:visited, a:active {
     color: inherit;
