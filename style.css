@@ -12,9 +12,10 @@ box-shadow: white;
     background:none;
 }
 
-.container1{
+#container1{
     background:linear-gradient(80.3deg, #C25CC5 8.12%, #BC6FEC 44.89%, #B6E4F2 94.21%);;
-    
+ display: flex;
+ flex-wrap: wrap;   
 position: absolute;
 width: 1440px;
 height: 850px;
@@ -166,12 +167,13 @@ transition: .4s;
 transform: ease-in-out;
 }
 .logos{
+    display:block;
     position: absolute;
     width: 240px;
     height: 45.48px;
     left: 110px;
     top: 655px;
-    align-content: space-between;
+    align-content:space-around;
     transition:.5s;
 }
 .facebook{
